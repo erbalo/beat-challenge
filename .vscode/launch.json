@@ -2,14 +2,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch",
+            "name": "Debug beat-challenge",
             "type": "go",
             "request": "launch",
             "mode": "debug",
             "program": "${workspaceFolder}",
             "env": {},
             "args": [
-                "-f", "bad-paths.csv"
+                "-f", "./input/paths.csv", "-o", "result.csv"
             ],
             "showLog": true
         }
