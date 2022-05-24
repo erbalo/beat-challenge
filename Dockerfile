@@ -17,7 +17,6 @@ RUN go mod tidy
 VOLUME ${WORK_DIR}/input
 VOLUME ${WORK_DIR}/output
 
-RUN make test
 RUN make cli
 
 CMD ["sh", "-c", "./bin/fare-cli -f ${VOLUME_IN}/${input} -o ${output}"]

@@ -5,9 +5,9 @@ CLI_DIR = "./bin/fare-cli"
 
 TEST_DIR_RECURSIVELY = "./..."
 
-test:
-	$(GO) test -v $(TEST_DIR_RECURSIVELY) --parallel 10
-
 cli:
+	$(MAKE) test
 	$(GO) build -o $(CLI_DIR) $(MAIN)
 
+test:
+	$(GO) test -v $(TEST_DIR_RECURSIVELY) --parallel 10
