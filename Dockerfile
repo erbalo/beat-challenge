@@ -12,6 +12,7 @@ WORKDIR ${WORK_DIR}
 COPY . .
 
 RUN go mod download
+RUN go mod tidy
 
 VOLUME ${WORK_DIR}/input
 VOLUME ${WORK_DIR}/output
