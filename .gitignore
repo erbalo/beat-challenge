@@ -1,0 +1,11 @@
+bin/
+
+!input/.gitkeep
+!input/.paths.csv
+
+
+output/*
+!output/.gitkeep
+
+/**/*.csv
+!/**/paths.csv

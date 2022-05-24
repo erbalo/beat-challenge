@@ -1,0 +1,7 @@
+*.csv
+.vscode
+.gitignore
+
+bin/
+input/
+output/

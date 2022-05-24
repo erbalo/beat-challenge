@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  fare-cli:
+    build: .
+    image: fare-cli
+    container_name: fare-cli
+    environment:
+      - input=paths.csv
+      - output=cool-result.csv
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
