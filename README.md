@@ -118,7 +118,7 @@ Practically it is the automation of the process with docker, here the only thing
 $ docker-compose up
 ```
 
-## How to run the application
+## How to run the tests
 
 If you have golang installed on your machine you can use the Makefile file.
 
