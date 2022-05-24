@@ -22,14 +22,14 @@ func TestCreate(test *testing.T) {
 	}{
 		{
 			name: "happy path",
-			args: args{row: []string{"1", "37.964168", "23.726123", "1405595110"}},
+			args: args{row: []string{"1", "37.966660", "23.728308", "1405594957"}},
 			expectedRide: domain.Ride{
 				ID: 1,
 				Locations: []domain.Location{
 					{
-						Lat:       37.964168,
-						Lon:       23.726123,
-						Timestamp: 1405595110,
+						Lat:       37.966660,
+						Lon:       23.728308,
+						Timestamp: 1405594957,
 					},
 				},
 			},
