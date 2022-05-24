@@ -23,7 +23,7 @@ I know that it can be improved and of course, there may be a lack of good practi
     - [With Makefile](#with-makefile)
     - [With docker](#with-docker)
     - [With docker-compose](#with-docker-compose)
-* [How to run the tests](#how-to-run-the-test)
+* [How to run the tests](#how-to-run-the-tests)
 
 ## Technology stack
 
